@@ -1,10 +1,8 @@
-import json
-
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import numpy as np
 import hnswlib
-from typing import List, Dict
+from typing import List
 
 app = FastAPI()
 
